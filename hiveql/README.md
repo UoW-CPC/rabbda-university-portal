@@ -1,6 +1,7 @@
-# have data
+# hive data
 
-1. create_db.hql - run this to install sqlite in case it is not installed in your machine
-2. create_table_hql - creates a database file in the working directory
-3. load_data.hql - populates sample data in the table commute_time
-4. query_data.hql - convert the data format to csv, including the headers. Command: bash export.sh > students_commute_time.csv
+1. create_db.hql - create application's database in Hive.
+2. create_table_hql - create a sample table in Hive.
+3. drop_table.hql - drop application's database from Hive.
+4. load_data.hql - load sample data to hive.
+5. query_data.hql - query the sample data from Hive.
