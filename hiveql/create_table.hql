@@ -2,7 +2,7 @@ use university;
 
 drop table if exists students_commute_time;
 
-create table cities
+create table students_commute_time
 (
   student_id int,
   campus string,
