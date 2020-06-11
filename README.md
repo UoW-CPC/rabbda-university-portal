@@ -31,7 +31,7 @@ This example is created for HDP default user maria_dev. In case you want to repr
 
 ### Example 1 - Ingesting sqlite data to Hive and analyse them
 
-At this example we populate sample data and we import them to Hive for analysis
+At this example we populate sample data and import them to Hive for analysis
 
 #### Phase A - Export data from sqlite and upload them to HDFS.
 
