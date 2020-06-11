@@ -16,5 +16,4 @@ create table students_commute_time
   study_year string,
   transportation_mode string
   )
-row format delimited fields terminated by ',';
-
+  row format delimited fields terminated by '|';
