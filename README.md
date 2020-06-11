@@ -16,6 +16,7 @@ The above figure is a high level architecture of the system, to more detail we c
 Phase A:
  * Data acquisition: Export relational data.
  * Data ingestion: Upload data to HDFS.
+
  Phase B:
  * Hive: analyse the data with the SQL-like Hive query language.
  * Pig: analyse the data with the scripting language Pig Latin.
