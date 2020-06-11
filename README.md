@@ -44,7 +44,7 @@ In the folder 'sqlite' the are 4 shell scripts that perform the following tasks:
 
 In the folder 'hdfs' there is a shell script with instruction on how to upload the data to HDFS.
 
-#### Step B - Import data to Hive and make some analysis
+#### Phase B - Import data to Hive and make some analysis
 
 In the folder 'hive' there are five HiveQL queries that perform the following tasks:
 
