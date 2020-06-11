@@ -21,7 +21,13 @@ Phase A:
 
 The application introduces technologies like RDBMS, Hadoop HDFS, Hive, and Pig.
 
+### Getting Started Guide
+
+To be able to produce this analysis you are required to have access to a HDP 3.6.5.
+
 ### Example 1 - Ingesting sqlite data to Hive
+
+The guide is related to
 
 #### Step A - Export data from sqlite and upload them to HDFS.
 
