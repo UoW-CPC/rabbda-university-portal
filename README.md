@@ -21,7 +21,7 @@ Phase A:
  * Hive: analyse the data with the SQL-like Hive query language.
  * Pig: analyse the data with the scripting language Pig Latin.
 
-Introduces technologies: RDBMS, Hadoop HDFS, Hive, and Pig.
+Introduced technologies: RDBMS, Hadoop HDFS, Hive, and Pig.
 
 ### Getting Started Guide
 
