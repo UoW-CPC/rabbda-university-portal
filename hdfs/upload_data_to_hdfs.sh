@@ -1,0 +1,1 @@
+hdfs dfs -put ../sqlite/students_commute_time.csv /user/maria_dev
