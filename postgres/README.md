@@ -131,9 +131,3 @@ cat students.csv
 ```
 
 At this point you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#phase-a-export-data-from-postgres-and-upload-them-to-hdfs) and continue your analysis by first uploading the data into HDFS.
-
-
-
-
-```
-```

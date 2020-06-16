@@ -49,37 +49,35 @@ This example is created for HDP default user maria_dev. In case you want to repr
 As it is described in the introduction in order to understand and build our solution we need to introduce several iterations.
 
 Each iteration focuses on a specific task and delivers a complete solution for this task. This demonstrations requires 5 iterations:
-1. Iteration 1 - Ingesting sqlite data to Hive and analyse them - Mentioned in the architecture.
+1. Iteration 1 - Ingesting SQLite data to Hive and perform analysis  - Mentioned in the architecture.
 2. Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig - Mentioned in the architecture.
 3. Iteration 5 - Sentiment analysis of students feedback - Experimental.
 4. Iteration 3 - Ingesting relational data by using Apache Sqoop - Experimental.
 5. Iteration 4 - Creating a workflow with Apache  Oozie to automate the above tasks - Experimental.
 
 
-#### Iteration 1 - Ingesting sqlite data to Hive and analyse them
+#### Iteration 1 - Ingesting SQLite data to Hive and perform analysis
 
-At this example we populate sample data and import them to Hive for analysis.
+At this example we populate sample data into SQLite and import them to Hive for analysis.
 
-##### Phase A: Export data from sqlite and upload them to HDFS
+##### Phase A: Export data from SQLite and upload them to HDFS
 
-Please, follow the instruction in the sqlite folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/sqlite#sqlite-demo)
-and on completion return here to continue with the analysis.
+Please, follow the instruction in the SQLite folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/sqlite#sqlite-demo)
+and return on completion to continue with the analysis.
 
-In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the three SCV files to HDFS.
+In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the SCV file to HDFS.
 To do so run the following commands:
 
 ```
-hdfs dfs -put students.csv \user\maria_dev\
-hdfs dfs -put grades_high_school.csv \user\maria_dev\
-hdfs dfs -put grades_university.csv \user\maria_dev\
+hdfs dfs -put students_commute_time.csv \user\maria_dev\
 ```
-To check that the files are uploaded into the HDFS run:
+To check that the file is uploaded into the HDFS run:
 ```
 hdfs dfs -ls /user/maria_dev
 ```
-Also you can see the content of a file by using the cat command, sample command:
+Also you can see the content of the file by using the cat command, sample command:
 ```
-hdfs dfs -cat /user/maria_dev/students.csv
+hdfs dfs -cat /user/maria_dev/students_commute_time.csv
 
 ##### Phase B: Import data to Hive and make some analysis
 
@@ -98,7 +96,7 @@ At this example we populate sample data, upload the to HDFS and analyse them wit
 ##### Phase A: Export data from postgres and upload them to HDFS.
 
 Please, follow the instruction in the postgres folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
-and on completion return here to continue with the analysis.
+and return on completion to continue with the analysis.
 
 In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the three SCV files to HDFS.
 To do so run the following commands:
