@@ -100,8 +100,8 @@ In this example we populate sample data into SQLite and import them to Hive for 
 Please, follow the instruction in the SQLite folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/sqlite#sqlite-demo)
 and return on completion to continue with the analysis.
 
-In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the SCV file to HDFS.
-To do so run the following commands:
+In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the data text file into HDFS.
+To do so run the following command:
 
 ```
 hdfs dfs -put students_commute_time.txt \user\maria_dev\

@@ -47,7 +47,7 @@ Finally we need to export the sample data from the SQLite database. To do so use
 bash export_data.sh > students_commute_time.txt
 ```
 
-You can see the file by using the ls commands, and its content by using the cat command:
+You can see the file by using the ls command, and its content by using the cat command:
 ```
 cat students_commute_time.txt
 ```
