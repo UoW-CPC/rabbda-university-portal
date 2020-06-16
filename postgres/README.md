@@ -96,7 +96,7 @@ select * from grades_university;
 Finally we need to export the data to CSV files. In the psql prompt run the following queries:
 
 ```
-COPY students TO '/tmp/student.csv' DELIMITER ',';
+COPY students TO '/tmp/students.csv' DELIMITER ',';
 COPY grades_high_school TO '/tmp/grades_high_school.csv' DELIMITER ',';
 COPY grades_university TO '/tmp/grades_university.csv' DELIMITER ',';
 
