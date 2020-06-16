@@ -35,9 +35,9 @@ Phase A:
 
 Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig.
 
-__Important:__ From a project's management point of view at this phase we assume that we are in the project analysis phases.
+__Important:__ From a project's management point of view we assume that we are in the project analysis phases.
 At this phase the architecture helps us to understand what needs to be done and communicate our aims and objectives.
-While we run through several iterations the architecture can change to extend our work or to iclude new requirements.
+While we run through several iterations the architecture can change to extend our work or to include new requirements.
 
 ### Getting Started Guide
 
