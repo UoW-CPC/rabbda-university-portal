@@ -12,7 +12,7 @@ cd hiveql
 ls
 ```
 
-In this folder there are five four queries that perform the above tasks. You can run them through terminal with the following commands:
+In this folder there are four queries that perform the previous tasks. You can run them through terminal with the following commands:
 ```
 hive -f create_db.hql
 hive -f create_table.hql
