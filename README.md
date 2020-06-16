@@ -80,10 +80,10 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 
 ##### Phase A: Export data from postgres and upload them to HDFS.
 
-Please follow the instruction in the postgres folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
+Please, follow the instruction in the postgres folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
 and on completion return here to continue with the analysis.
 
-In case you successfully complete the data acquisition from the Postgres database, you simple need to upload the three SCV files to HDFS.
+In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the three SCV files to HDFS.
 To do so run the following commands:
 
 ```
@@ -95,14 +95,15 @@ To check that the files are uploaded into the HDFS run:
 ```
 hdfs dfs -ls /user/maria_dev
 ```
-Also you can see the contect of a file by using the cat command, sample command:
+Also you can see the content of a file by using the cat command, sample command:
 ```
 hdfs dfs -cat /user/maria_dev/students.csv
 ```
 
-
-
 ##### Phase B: Analyse the data with Pig
+
+At this phase we will be using the data we have upload into the Hadoop envirnament to make some analysis. To do so please follow the instruction here.
+
 
 #### Iteration 3 - Ingesting relational data by using Apache Sqoop
 
