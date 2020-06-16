@@ -83,6 +83,25 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 Please follow the instruction in the postgres folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
 and on completion return here to continue with the analysis.
 
+In case you successfully complete the data acquisition from the Postgres database, you simple need to upload the three SCV files to HDFS.
+To do so run the following commands:
+
+```
+hdfs dfs -put students.csv \user\maria_dev\
+hdfs dfs -put grades_high_school.csv \user\maria_dev\
+hdfs dfs -put grades_university.csv \user\maria_dev\
+```
+To check that the files are uploaded into the HDFS run:
+```
+hdfs dfs -ls /user/maria_dev
+```
+Also you can see the contect of a file by using the cat command, sample command:
+```
+hdfs dfs -cat /user/maria_dev/students.csv
+```
+
+
+
 ##### Phase B: Analyse the data with Pig
 
 #### Iteration 3 - Ingesting relational data by using Apache Sqoop
