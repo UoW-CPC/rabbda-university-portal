@@ -30,7 +30,12 @@ If the service exist you will get the SQLite prompt, sqlite>, to exit type .quit
 yum -y install sqlite
 ```
 
-To create the database and its table, move to the sqlite folder. In this folder there is a bash script create_db.sh that does this for you. To run it in terminal execute the following:
+To create the database and its table, move to the sqlite folder.
+```
+cd sqlite
+```
+
+In this folder there is a bash script create_db.sh that does this for you. To run it in terminal execute the following:
 
 ```
 bash create_db.sh
