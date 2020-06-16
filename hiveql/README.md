@@ -20,11 +20,11 @@ hive -f load_data.hql
 hive -f query_data.hql
 ```
 
-If you have successfully run the above queries, you are able to see several results like:
+If you have successfully run the above queries, you are able to see results like:
 * all the data stored the commute_time table
 * number of students per study year
 * number of students per field and study year
-* Average commute time per campus
+* average commute time per campus
 
 Can you see that some data are badly formatted? It that affects our results?
 
@@ -32,7 +32,10 @@ __Notice:__ In case you want to reproduce the above step you can drop the databa
 ```
 hive -f drop_db.hql
 ```
-
+Move back to the parent folder:
+```
+cd ..
+```
 You have now completed iteration 1 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-2---ingesting-postgres-data-hdfs-and-analyse-them-with-pig) and continue your analysis by starting iteration 2.
 
 
