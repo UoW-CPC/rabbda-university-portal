@@ -72,7 +72,7 @@ First move to the working directory by executing the command:
  ```
  ls
  ```
- There you can see seven folders and three files:
+ There you can see five folders and one file:
   * __hiveql__ - folder - contains Hive queries and instructions used in iteration 1.
   * __pig__ - folder - contains Pig scripts used in iteration 2.
   * __postgres__ - folder - contains SQL queries and instructions used in iteration 2.
