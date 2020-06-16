@@ -1,4 +1,4 @@
-# sqlite data
+# SQLite Demo
 
 1. install.sh - install sqlite in case it is not installed in your machine
 2. create_db.sh - create a database file in your working directory

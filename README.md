@@ -41,7 +41,7 @@ While we run through several iterations the architecture can change to extend ou
 
 ### Getting Started Guide
 
-To be able to produce this analysis you are required to have access to HDP 2.6.5 (Hortonwork Data Platform).
+To be able to follow this analysis you are required to have access to HDP 2.6.5 (Hortonwork Data Platform).
 This example is created for HDP default user maria_dev. In case you want to reproduce it in a different environment, change the scripts accordingly.
 
 #### Iterations
@@ -49,11 +49,12 @@ This example is created for HDP default user maria_dev. In case you want to repr
 As it is described in the introduction in order to understand and build our solution we need to introduce several iterations.
 
 Each iteration focuses on a specific task and delivers a complete solution for this task. This demonstrations requires 5 iterations:
-1. Iteration 1 - Ingesting sqlite data to Hive and analyse them.
-2. Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig.
-3. Iteration 3 - Ingesting relational data by using Apache Sqoop.
-4. Iteration 4 - Creating a workflow with Apache  Oozie to automate the above tasks.
-5. Iteration 5 - Sentiment analysis of students feedback.
+1. Iteration 1 - Ingesting sqlite data to Hive and analyse them - Mentioned in the architecture.
+2. Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig - Mentioned in the architecture.
+3. Iteration 5 - Sentiment analysis of students feedback - Experimental.
+4. Iteration 3 - Ingesting relational data by using Apache Sqoop - Experimental.
+5. Iteration 4 - Creating a workflow with Apache  Oozie to automate the above tasks - Experimental.
+
 
 #### Iteration 1 - Ingesting sqlite data to Hive and analyse them
 
@@ -61,14 +62,24 @@ At this example we populate sample data and import them to Hive for analysis.
 
 ##### Phase A: Export data from sqlite and upload them to HDFS
 
-In the folder 'sqlite' the are 4 shell scripts that perform the following tasks:
+Please, follow the instruction in the sqlite folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
+and on completion return here to continue with the analysis.
 
-1. install.sh - install sqlite in case it is not installed in your machine
-2. create_db.sh - create a database file in your working directory
-3. add_data.sh - populate sample data in the table commute_time
-4. export_data.sh - select all data and export them. Command: bash export_data.sh > students_commute_time.txt
+In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the three SCV files to HDFS.
+To do so run the following commands:
 
-In the folder 'hdfs' there is a shell script with instruction on how to upload the data to HDFS.
+```
+hdfs dfs -put students.csv \user\maria_dev\
+hdfs dfs -put grades_high_school.csv \user\maria_dev\
+hdfs dfs -put grades_university.csv \user\maria_dev\
+```
+To check that the files are uploaded into the HDFS run:
+```
+hdfs dfs -ls /user/maria_dev
+```
+Also you can see the content of a file by using the cat command, sample command:
+```
+hdfs dfs -cat /user/maria_dev/students.csv
 
 ##### Phase B: Import data to Hive and make some analysis
 
@@ -110,9 +121,9 @@ hdfs dfs -cat /user/maria_dev/students.csv
 
 At this phase we will be using the data we have upload into the Hadoop envirnament to make some analysis. To do so please follow the instruction here.
 
+#### Iteration 3 - Sentiment analysis of students feedback
 
-#### Iteration 3 - Ingesting relational data by using Apache Sqoop
+#### Iteration 4 - Ingesting relational data by using Apache Sqoop
 
-#### Iteration 4 - Creating a workflow with Apache  Oozie to automate the above tasks
+#### Iteration 5 - Creating a workflow with Apache  Oozie to automate the above tasks
 
-#### Iteration 5 - Sentiment analysis of students feedback
