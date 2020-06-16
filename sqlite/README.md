@@ -47,4 +47,6 @@ Finally we need to export the sample data from the SQLite database. To do so use
 bash export_data.sh > students_commute_time.txt
 ```
 
+Move back to the parent folder.
+
 At this point you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#phase-a-export-data-from-sqlite-and-upload-them-to-hdfs) and continue your analysis by first uploading the data into HDFS.
