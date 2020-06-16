@@ -11,7 +11,7 @@ In a production environment, the data  are already stored in a Postgres Server a
 However, as this is a demonstration we also need to create the data.
 
 ## Iteration 2 - Phase A: Export data from Postgres
-As it can be seen in the project documentation, Postgres  is being  utilised in iteration 2 to acquire data from. The rest of this document guides through the several phases so to fulfill that particular task.
+As it can be seen in the project documentation, Postgres  is being  utilised in iteration 2 to acquire data from. The rest of this document guides you through the several phases so to fulfill that particular task.
 
 __Warning__: This is an multi-steps tutorial. HDP 2.6.5 comes with Postgres already installed, accompanied with several security configurations.
 To avoid configuration changes that might break the system, we need to perform many steps.

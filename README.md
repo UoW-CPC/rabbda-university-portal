@@ -128,7 +128,7 @@ Having imported the data to HDFS, it is now time to analyse those data with Hive
 
 In this example we populate sample data into Postgres, upload them to HDFS and analyse them with Pig.
 
-##### Phase A: Export data from postgres and upload them to HDFS.
+##### Phase A: Export data from Postgres and upload them to HDFS.
 
 Please, follow the instruction in the postgres folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
 and return on completion to continue with the analysis.

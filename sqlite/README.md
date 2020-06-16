@@ -7,12 +7,12 @@ In this section we introduce how we can perform several tasks with SQLite Databa
 3. Add sample data to the table
 4. Export all data to a CSV file
 
-In a production environment, the data  are already stored in a database and we only need to perform task 4 so to export the data to CSV a file.
+In a production environment, the data  are already stored in a database and we only need to perform task 4 so to export the data to a text file.
 However, as this is a demonstration we also need to create the data.
 
 ## Iteration 1 - Phase A: Export data from SQLite
 
-As it can be seen in the project documentation, SLite  is being  utilised in iteration 1 to acquire data from. The rest of this document guides through the several phases so to fulfill that particular task.
+As it can be seen in the project documentation, SLite  is being  utilised in iteration 1 to acquire data from. The rest of this document guides you through the several phases so to fulfill that particular task.
 
 
 ### SQLite Guide
