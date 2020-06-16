@@ -26,7 +26,7 @@ The first step is to create the 'university' database, in the terminal run the f
 ```
 sudo -u postgres psql
 ```
-The above command return a psql prompt for user postgres to the default database postgres:
+The above command return a psql prompt for the user postgres to the default database postgres:
 
 postgres=#
 
@@ -38,7 +38,7 @@ CREATE DATABASE university;
 ```
 To see the new database type again \l and hit enter.
 
-We now need to work on the new database. Type the following and hit enter:
+To work with the new database, type the following and hit enter:
 
 ```
 \c university
@@ -55,21 +55,21 @@ __students table:__
 
 NOTICE: CREATE TABLE / PRIMARY KEY will create implicit index "students_pkey" for table "students"
 
-__grades_high_school:__
+__grades_high_school table:__
 
 NOTICE: CREATE TABLE will create implicit sequence "grades_high_school_id_sql"  for serial column "grades_high_school.id"
 
 NOTICE: CREATE TABLE / PRIMARY KEY will create implicit index "grades_high_school_pkey" for table "grades_high_school"
 
-__grades_university:__
+__grades_university table:__
 
 NOTICE: CREATE TABLE will create implicit sequence "__grades_university_id_sql"  for serial column "__grades_university.id"
 
 NOTICE: CREATE TABLE / PRIMARY KEY will create implicit index "__grades_university_pkey" for table "__grades_university"
 
-To see the three table type \dt and hit enter.
+To see the three tables, type \dt and hit enter.
 
-It is now time to insert our sample data. In the file insert_data.sql there are three SQL queries, copy the queries one by one and run them.
+It is now time to insert into those tables our sample data. In the file insert_data.sql there are three SQL queries, copy the queries one by one and run them.
 
 You will get three responses, one for each table:
 
@@ -77,11 +77,11 @@ __students table:__
 
 INSERT 0 18
 
-__grades_high_school:__
+__grades_high_school table:__
 
 INSERT 0 54
 
-__grades_university:__
+__grades_university table:__
 
 INSERT 0 54
 
