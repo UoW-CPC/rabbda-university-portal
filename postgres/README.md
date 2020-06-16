@@ -85,7 +85,7 @@ __grades_university table:__
 
 INSERT 0 54
 
-To see the for each table run the following queries:
+To see the records for each table run the following queries:
 
 ```
 select * from students;
