@@ -62,7 +62,7 @@ At this example we populate sample data and import them to Hive for analysis.
 
 ##### Phase A: Export data from sqlite and upload them to HDFS
 
-Please, follow the instruction in the sqlite folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres#postgres-demo)
+Please, follow the instruction in the sqlite folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/sqlite#sqlite-demo)
 and on completion return here to continue with the analysis.
 
 In case you successfully completed the data acquisition task from the Postgres database, you simple need to upload the three SCV files to HDFS.
