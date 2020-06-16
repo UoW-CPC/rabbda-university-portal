@@ -153,7 +153,7 @@ hdfs dfs -cat /user/maria_dev/students.csv
 
 ##### Phase B: Analyse the data with Pig
 
-At this phase we will be using the data we have upload into the Hadoop envirnament to make some analysis. To do so please follow the instruction here.
+At this phase we will be using Pig to do some analysis with the data we have uploaded into the Hadoop environment. To do so please follow the instruction [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/pig#pig-analysis).
 
 #### Iteration 3 - Sentiment analysis of students feedback
 
