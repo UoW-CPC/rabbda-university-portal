@@ -11,13 +11,13 @@ In a production environment, the data  are already stored in a Postgres Server a
 However, as this is a demonstration we also need to create the data.
 
 ## Iteration 2 - Phase A: Export data from Postgres
-As it can be seen in the project documentation, Postgres  is being  utilised in Iteration 2 so to acquire data. The rest of this document guides through the several phases so to fulfill that particular task.
+As it can be seen in the project documentation, Postgres  is being  utilised in iteration 2 to acquire data. The rest of this document guides through the several phases so to fulfill that particular task.
 
 __Warning__: This is an multi-steps tutorial. HDP 2.6.5 comes with Postgres already installed, accompanied with several security configurations.
 To avoid configuration changes that might break the system, we need to perform many steps.
 In case you find it difficult to follow these steps, the CSV files have been included in this folder so you can continue with your analysis.
 
-### Postres psql guide
+### Postgres PSQL Guide
 
 Log in to the web terminal (http://host:4200/) as maria_dev with password maria_dev.
 You will see a prompt like [maria_dev@sandbox-hdp ~]$.
