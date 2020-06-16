@@ -55,6 +55,38 @@ Each iteration focuses on a specific task and delivers a complete solution for t
 4. Iteration 3 - Ingesting relational data by using Apache Sqoop - Experimental.
 5. Iteration 4 - Creating a workflow with Apache  Oozie to automate the above tasks - Experimental.
 
+#### Download the project
+
+The initial step is to download the repository in your Hadoop machine. To do so, in terminal run the following command:
+ ```
+ git clone https://github.com/UoW-CPC/rabbda-university-portal.git
+ ```
+First move to the working directory by executing the command:
+ ```
+ cd rabbda-university-portal
+ ```
+ Now execute the command:
+ ```
+ ls
+ ```
+ There you can see seven folders and three files:
+  * __hiveql__ - folder - contains Hive queries and instructions used in iteration 1.
+  * __pig__ - folder - contains Pig scripts used in iteration 2.
+  * __postgres__ - folder - contains SQL queries and instructions used in iteration 2.
+  * __sqlite__ - folder - contains SQL queries in bash scripts and instructions used in iteration 1.
+  * __README.md__ - file - project information and instructions on how to follow this demo.
+
+
+
+__Tip:__ changing directories with terminal commands.
+ ```
+ ls             #list all folders and files
+ cd folder_name #move to folder
+ cd ..          #move to parent folder
+ pwd            #pring working directory
+ ```
+
+
 
 #### Iteration 1 - Ingesting SQLite data to Hive and perform analysis
 
