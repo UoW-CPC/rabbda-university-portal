@@ -50,7 +50,7 @@ As it is described in the introduction in order to understand and build our solu
 
 Each iteration focuses on a specific task and delivers a complete solution for this task. This demonstrations requires 5 iterations:
 1. Iteration 1 - Ingesting SQLite data to Hive and perform analysis  - Mentioned in the architecture.
-2. Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig - Mentioned in the architecture.
+2. Iteration 2 - Ingesting postgres data to HDFS and analyse them with Pig - Mentioned in the architecture.
 3. Iteration 5 - Sentiment analysis of students feedback - Experimental.
 4. Iteration 3 - Ingesting relational data by using Sqoop - Experimental.
 5. Iteration 4 - Creating Oozie workflows to automate the above phases - Experimental.
@@ -124,7 +124,7 @@ cd ..
 Having imported the data to HDFS, it is now time to analyse those data with Hive. To do so, follow the instruction in the hiveql folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/hiveql#hive-analysis).
 
 
-#### Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig
+#### Iteration 2 - Ingesting postgres data to HDFS and analyse them with Pig
 
 In this example we populate sample data, upload the to HDFS and analyse them with Pig.
 
