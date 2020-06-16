@@ -1,5 +1,14 @@
 # Pig Analysis
 
+
+Initialy verify that Pig is running, in the terminal run the following:
+
+```
+pig –version
+```
+
+
+
 To be able to analyse data with Hive, it is required to perform several taks:
 1. Create a database
 2. Create tables

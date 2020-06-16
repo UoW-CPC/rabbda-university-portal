@@ -51,9 +51,9 @@ As it is described in the introduction in order to understand and build our solu
 Each iteration focuses on a specific task and delivers a complete solution for this task. This demonstrations requires 5 iterations:
 1. Iteration 1 - Ingesting SQLite data to Hive and perform analysis  - Mentioned in the architecture.
 2. Iteration 2 - Ingesting postgres data to HDFS and analyse them with Pig - Mentioned in the architecture.
-3. Iteration 5 - Sentiment analysis of students feedback - Experimental.
-4. Iteration 3 - Ingesting relational data by using Sqoop - Experimental.
-5. Iteration 4 - Creating Oozie workflows to automate the above phases - Experimental.
+3. Iteration 4 - Sentiment analysis of students feedback - Experimental.
+4. Iteration 4 - Ingesting relational data by using Sqoop - Experimental.
+5. Iteration 5 - Creating Oozie workflows to automate the above phases - Experimental.
 
 #### Download the project
 
