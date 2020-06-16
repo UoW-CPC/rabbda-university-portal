@@ -22,6 +22,11 @@ If you have successfully run the above queries, you are able to see several resu
 
 Can you see that some data are badly formatted? It that affects our results?
 
+__Notice:__ In case you want to reproduce the above step you can drop the database by using the script drop_database.
+```
+hive -f drop_db.hql
+```
+
 You have now completed iteration 1 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-2---ingesting-postgres-data-hdfs-and-analyse-them-with-pig) and continue your analysis by starting iteration 2.
 
 
