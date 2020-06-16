@@ -1,0 +1,3 @@
+CREATE DATABASE university;
+CREATE USER maria_dev WITH ENCRYPTED PASSWORD 'maria_dev';
+GRANT ALL PRIVILEGES ON DATABASE university TO maria_dev;
