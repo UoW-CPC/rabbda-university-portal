@@ -17,7 +17,7 @@ As it can be seen in the project documentation, SLite  is being  utilised in ite
 
 ### SQLite Guide
 
-Log into the HDP web terminal (sample link: http://localhost:4200/) as maria_dev with password maria_dev.
+In case you are not logged in to the HDP web terminal (sample link: http://localhost:4200/), please log in as maria_dev with password maria_dev.
 You now see a prompt like [maria_dev@sandbox-hdp ~]$.
 
 The first step is to check that SQLite is installed in the terminal run the following:
@@ -30,7 +30,7 @@ If the service exist you will get the SQLite prompt, sqlite>, to exit type .quit
 yum -y install sqlite
 ```
 
-Having now installed the service you must create the database and the data table. In this folder there is a bash script create_db.sh that does this for you. To run it in terminal execute the following:
+Having now installed the service you must create the database and the data table. Move to the sqlite folder, there is a bash script create_db.sh that does this for you. To run it in terminal execute the following:
 
 ```
 bash create_db.sh

@@ -86,7 +86,7 @@ __Tip:__ changing directories with terminal commands.
  ls             #list all folders and files
  cd folder_name #move to folder
  cd ..          #move to parent folder
- pwd            #pring working directory
+ pwd            #print working directory
  ```
 
 

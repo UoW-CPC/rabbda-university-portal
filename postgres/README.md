@@ -19,7 +19,7 @@ In case you find it difficult to follow these steps, the CSV files have been inc
 
 ### Postgres PSQL Guide
 
-Log into the HDP web terminal (sample link: http://localhost:4200/) as maria_dev with password maria_dev.
+In case you are not logged in to the HDP web terminal (sample link: http://localhost:4200/), please log in as maria_dev with password maria_dev.
 You now see a prompt like [maria_dev@sandbox-hdp ~]$.
 
 The first step is to create the 'university' database, in the terminal run the following:
