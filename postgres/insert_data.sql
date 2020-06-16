@@ -82,7 +82,7 @@ VALUES
 
 INSERT INTO grades_university (STUDENT_ID, MODULE_ID, GRADE)
 VALUES
-	( 1855,1574,90),
+    ( 1855,1574,90),
     ( 1856,1745,50),
     ( 1857,1631,60),
     ( 1858,1631,65),
