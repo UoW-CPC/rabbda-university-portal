@@ -124,7 +124,7 @@ cp /tmp/students.csv students.csv
 cp /tmp/grades_high_school.csv grades_high_school.csv
 cp /tmp/grades_university.csv grades_university.csv
 ```
-If you now run ls you can see the files listed in your working directory. To see the content of each file run the command 'cat filename', example:
+If you run the ls command you can see the files listed in your working directory. To see the content of each file run the command 'cat filename', example:
 
 ```
 cat students.csv
