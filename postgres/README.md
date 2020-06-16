@@ -15,7 +15,7 @@ As it can be seen in the project documentation, Postgres  is being  utilised in 
 
 __Warning__: This is an multi-steps tutorial. HDP 2.6.5 comes with Postgres already installed, accompanied with several security configurations.
 To avoid configuration changes that might break the system, we need to perform many steps.
-In case you find it difficult to follow these steps, the CSV files have been included in this folder so you can continue with your analysis.
+In case you find it difficult to follow these steps, the CSV files have been included under the folder data so you can continue with your analysis.
 
 ### Postgres PSQL Guide
 
