@@ -137,9 +137,9 @@ In case you successfully completed the data acquisition task from the Postgres d
 To do so run the following commands:
 
 ```
-hdfs dfs -put students.csv \user\maria_dev\
-hdfs dfs -put grades_high_school.csv \user\maria_dev\
-hdfs dfs -put grades_university.csv \user\maria_dev\
+hdfs dfs -put students.csv \user\maria_dev\students.csv
+hdfs dfs -put grades_high_school.csv \user\maria_dev\grades_high_school.csv
+hdfs dfs -put grades_university.csv \user\maria_dev\grades_university.csv
 ```
 To check that the files are uploaded into the HDFS run:
 ```
