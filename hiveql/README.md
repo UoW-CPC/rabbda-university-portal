@@ -17,6 +17,6 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 5. query_data.hql - query sample data with Hive.
 
 
-At this point you have complete the iteration 1 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-2---ingesting-postgres-data-hdfs-and-analyse-them-with-pig) and continue your analysis by starting iteration 2.
+You have now completed iteration 1 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-2---ingesting-postgres-data-hdfs-and-analyse-them-with-pig) and continue your analysis by starting iteration 2.
 
 

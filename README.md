@@ -82,7 +82,7 @@ hdfs dfs -cat /user/maria_dev/students_commute_time.txt
 
 ##### Phase B: Import data to Hive and make some analysis
 
-Having imported the data to HDFS, it is now time to analyse this data with Hive. To do so follow the instruction in the hiveql folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/hiveql#hive-analysis).
+Having imported the data to HDFS, it is now time to analyse those data with Hive. To do so, follow the instruction in the hiveql folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/hiveql#hive-analysis).
 
 
 #### Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig
