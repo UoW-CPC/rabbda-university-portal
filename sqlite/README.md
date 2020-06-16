@@ -25,7 +25,7 @@ The first step is to check that SQLite is installed in the terminal run the foll
 sqlite3
 ```
 
-If the service exist you will get an SQLite prompt, sqlite>, to exit type .quit and hit enter. In case the service does not exist you can install it by using the command:
+If the service exist you will get the SQLite prompt, sqlite>, to exit type .quit and hit enter. In case the service does not exist you can install it by using the command:
 ```
 yum -y install sqlite
 ```
@@ -35,7 +35,7 @@ Having now installed the service you must create the database and the data table
 ```
 bash create_db.sh
 ```
-To see the database file use the ls commands and look for a file named students_commute_time.db.
+To see the database file use the ls command and search for a file named students_commute_time.db.
 
 In this directory there also another bash script which inserts sample data to the our database. To execute it use the following command:
 ```
@@ -44,7 +44,7 @@ bash insert_data.sh
 
 Finally we need to export the sample data from the SQLite database. To do so use the bash script export_data.sh:
 ```
-bash export_data.sh > students_commute_time.csv
+bash export_data.sh > students_commute_time.txt
 ```
 
 At this point you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#phase-a-export-data-from-sqlite-and-upload-them-to-hdfs) and continue your analysis by first uploading the data into HDFS.
