@@ -69,7 +69,7 @@ In case you successfully completed the data acquisition task from the Postgres d
 To do so run the following commands:
 
 ```
-hdfs dfs -put students_commute_time.csv \user\maria_dev\
+hdfs dfs -put students_commute_time.txt \user\maria_dev\
 ```
 To check that the file is uploaded into the HDFS run:
 ```
@@ -77,17 +77,12 @@ hdfs dfs -ls /user/maria_dev
 ```
 Also you can see the content of the file by using the cat command, sample command:
 ```
-hdfs dfs -cat /user/maria_dev/students_commute_time.csv
+hdfs dfs -cat /user/maria_dev/students_commute_time.txt
 
 ##### Phase B: Import data to Hive and make some analysis
 
-In the folder 'hive' there are five HiveQL queries that perform the following tasks:
+Having imported the data to HDFS, it is now time to analyse this data with Hive. To do so follow the instruction in the hiveql folder [here]().
 
-1. create_db.hql - create application's database in Hive.
-2. create_table_hql - create a sample table in Hive.
-3. drop_table.hql - drop application's database from Hive.
-4. load_data.hql - load sample data to hive.
-5. query_data.hql - query sample data with Hive.
 
 #### Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig
 
