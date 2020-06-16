@@ -78,6 +78,7 @@ hdfs dfs -ls /user/maria_dev
 Also you can see the content of the file by using the cat command, sample command:
 ```
 hdfs dfs -cat /user/maria_dev/students_commute_time.txt
+```
 
 ##### Phase B: Import data to Hive and make some analysis
 
