@@ -1,20 +1,23 @@
 # Postgres Demo
 
 ## Introduction
-In this section we introduce the Postgres database engine so to perform several tasks:
+In this section we introduce who we can perform several tasks with the Postgres Database Engine, to more detail we will do the following:
 1. Create the 'university' database
 2. Create tables 'students', 'grades_high_school', 'grades_university'
 3. Add sample data to all tables
 4. Export all data to CSV files
 
-In a production system, the data probable are already stored in a Postgres server and we only need to perform task 4. Export data to CSV files.
+In a production environment, the data  are already stored in a Postgres Server and we only need to perform task 4 so to export data to CSV files.
 However, as this is a demonstration we also need to create the data.
 
-## Iteration 2 - Phase A - Export data from postgres
-As it can be seen in the project documentation,  postgres  is being  utilised in Iteration 2 and the rest of this document guides through the several phases so to fulfill that particular task.
+## Iteration 2 - Phase A - Export data from Postgres
+As it can be seen in the project documentation, Postgres  is being  utilised in Iteration 2 so to acquire data. The rest of this document guides through the several phases so to fulfill that particular task.
 
-__Warning__: This is an advanced tutorial. HDP 2.6.5 comes with Postgres already installed, accompanied with several security configurations.
-To avoid configuration changes that might break the system, we need to perform many steps. However, it is also a chance to familiarise with Linux terminal and Postgres.
+__Warning__: This is an multi-steps tutorial. HDP 2.6.5 comes with Postgres already installed, accompanied with several security configurations.
+To avoid configuration changes that might break the system, we need to perform many steps.
+In case you find it difficult to follow these steps, the CSV files have been included in this folder so you can continue with your analysis.
+
+### Postres psql guide
 
 Log in to the web terminal (http://host:4200/) as maria_dev with password maria_dev.
 You will see a prompt like [maria_dev@sandbox-hdp ~]$.
