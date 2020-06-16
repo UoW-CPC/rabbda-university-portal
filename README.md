@@ -22,7 +22,7 @@ To more detail the application aims to analyse students data to answer complex s
 
 ![uni_architecture](https://user-images.githubusercontent.com/32298274/84429346-a3848480-ac30-11ea-96f3-e7141a37b7fe.png)
 
-__Concept architecture__ can change while developing
+
 The above figure is a high level architecture of the system, to more detail we can see two phases:
 
 Phase A:
@@ -33,7 +33,11 @@ Phase A:
  * Hive: analyse the data with the SQL-like Hive query language.
  * Pig: analyse the data with the scripting language Pig Latin.
 
-Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig, Apache Sqoop.
+Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig.
+
+__Important:__ From a project's management point of view at this phase we assume that we are in the project analysis phases.
+At this phase the architecture helps us to understand what needs to be done and communicate our aims and objectives.
+While we run through several iterations the architecture can change to extend our work or to iclude new requirements.
 
 ### Getting Started Guide
 
@@ -53,7 +57,7 @@ Each iteration focuses on a specific task and delivers a complete solution for t
 
 #### Iteration 1 - Ingesting sqlite data to Hive and analyse them
 
-At this example we populate sample data and import them to Hive for analysis
+At this example we populate sample data and import them to Hive for analysis.
 
 ##### Phase A: Export data from sqlite and upload them to HDFS
 
@@ -77,6 +81,8 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 5. query_data.hql - query sample data with Hive.
 
 #### Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig
+
+At this example we populate sample data, upload the to HDFS and analyse them with Pig.
 
 ##### Phase A: Export data from postgres and upload them to HDFS.
 
