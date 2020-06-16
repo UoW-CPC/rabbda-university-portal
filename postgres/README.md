@@ -115,7 +115,7 @@ __grades_university:__
 
 COPY 54
 
-Now we have finished our work with Postgres and we can close the psql prompt. To do type \q and hit enter.
+Our work with Postgres is completed and we can close the psql prompt. To do so, type \q and hit enter.
 
 The final step is to copy the CSV files form the /tmp path to our working directory. In the terminal run the following:
 
