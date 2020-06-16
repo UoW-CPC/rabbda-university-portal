@@ -1,5 +1,6 @@
 # Hive Analysis
 
+
 1. create_db.hql - create application's database in Hive.
 2. create_table_hql - create a sample table in Hive.
 3. drop_table.hql - drop application's database from Hive.
