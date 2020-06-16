@@ -12,7 +12,7 @@ However, as this is a demonstration we also need to create the data.
 
 ## Iteration 1 - Phase A: Export data from SQLite
 
-As it can be seen in the project documentation, SLite  is being  utilised in iteration 1 to acquire data. The rest of this document guides through the several phases so to fulfill that particular task.
+As it can be seen in the project documentation, SLite  is being  utilised in iteration 1 to acquire data from. The rest of this document guides through the several phases so to fulfill that particular task.
 
 
 ### SQLite Guide
