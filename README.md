@@ -22,6 +22,7 @@ To more detail the application aims to analyse students data to answer complex s
 
 ![uni_architecture](https://user-images.githubusercontent.com/32298274/84429346-a3848480-ac30-11ea-96f3-e7141a37b7fe.png)
 
+__Concept architecture__ can change while developing
 The above figure is a high level architecture of the system, to more detail we can see two phases:
 
 Phase A:
@@ -54,7 +55,7 @@ Each iteration focuses on a specific task and delivers a complete solution for t
 
 At this example we populate sample data and import them to Hive for analysis
 
-##### Phase A - Export data from sqlite and upload them to HDFS
+##### Phase A: Export data from sqlite and upload them to HDFS
 
 In the folder 'sqlite' the are 4 shell scripts that perform the following tasks:
 
@@ -65,7 +66,7 @@ In the folder 'sqlite' the are 4 shell scripts that perform the following tasks:
 
 In the folder 'hdfs' there is a shell script with instruction on how to upload the data to HDFS.
 
-##### Phase B - Import data to Hive and make some analysis
+##### Phase B: Import data to Hive and make some analysis
 
 In the folder 'hive' there are five HiveQL queries that perform the following tasks:
 
@@ -77,12 +78,12 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 
 #### Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig
 
-##### Phase A - Export data from postgres and upload them to HDFS.
+##### Phase A: Export data from postgres and upload them to HDFS.
 
 Please follow the instruction in the postgress forlder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres)
 and on completion return here to continue with the analysis.
 
-##### Phase B - Analyse the data with Pig
+##### Phase B: Analyse the data with Pig
 
 #### Iteration 3 - Ingesting relational data by using Apache Sqoop
 

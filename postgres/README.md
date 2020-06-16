@@ -1,7 +1,7 @@
 # Postgres Demo
 
 ## Introduction
-In this section we introduce who we can perform several tasks with the Postgres Database Engine, to more detail we will do the following:
+In this section we introduce how we can perform several tasks with Postgres Database Engine. To more detail we will do the following:
 1. Create the 'university' database
 2. Create tables 'students', 'grades_high_school', 'grades_university'
 3. Add sample data to all tables
@@ -10,7 +10,7 @@ In this section we introduce who we can perform several tasks with the Postgres 
 In a production environment, the data  are already stored in a Postgres Server and we only need to perform task 4 so to export data to CSV files.
 However, as this is a demonstration we also need to create the data.
 
-## Iteration 2 - Phase A - Export data from Postgres
+## Iteration 2 - Phase A: Export data from Postgres
 As it can be seen in the project documentation, Postgres  is being  utilised in Iteration 2 so to acquire data. The rest of this document guides through the several phases so to fulfill that particular task.
 
 __Warning__: This is an multi-steps tutorial. HDP 2.6.5 comes with Postgres already installed, accompanied with several security configurations.
