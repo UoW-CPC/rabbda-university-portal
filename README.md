@@ -52,8 +52,8 @@ Each iteration focuses on a specific task and delivers a complete solution for t
 1. Iteration 1 - Ingesting SQLite data to Hive and perform analysis  - Mentioned in the architecture.
 2. Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig - Mentioned in the architecture.
 3. Iteration 5 - Sentiment analysis of students feedback - Experimental.
-4. Iteration 3 - Ingesting relational data by using Apache Sqoop - Experimental.
-5. Iteration 4 - Creating a workflow with Apache  Oozie to automate the above tasks - Experimental.
+4. Iteration 3 - Ingesting relational data by using Sqoop - Experimental.
+5. Iteration 4 - Creating a workflow with Oozie to automate the above tasks - Experimental.
 
 #### Download the project
 
