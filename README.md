@@ -33,7 +33,7 @@ Phase A:
  * Hive: analyse the data with the SQL-like Hive query language.
  * Pig: analyse the data with the scripting language Pig Latin.
 
-Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig.
+Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig, Apache Sqoop, Apache Oozie.
 
 __Important:__ From a project's management point of view we assume that we are in the project analysis phases.
 At this phase the architecture helps us to understand what needs to be done and communicate our aims and objectives.
