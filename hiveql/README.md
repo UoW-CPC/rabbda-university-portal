@@ -1,21 +1,26 @@
 # Hive Analysis
 
+To be able to analyse data with Hive, it is required to perform several taks:
+1. Create a database
+2. Create tables
+3. Load data to these tables
+4. Query those tables and perfom Map-Reduce jobs
 
-1. create_db.hql - create application's database in Hive.
-2. create_table_hql - create a sample table in Hive.
-3. drop_table.hql - drop application's database from Hive.
-4. load_data.hql - load sample data to hive.
-5. query_data.hql - query the sample data from Hive.
+In this folder there are five four queries that perform the above tasks. You can run them through terminal with the following commands:
+```
+hive -f create_db.hql
+hive -f create_table.hql
+hive -f load_data.hql
+hive -f query_data.hql
+```
 
+If you have successfully run the above queries, you are able to see several results like:
+* all the data stored the commute_time table
+* number of students per study year
+* number of students per field and study year
+* Average commute time per campus
 
-In the folder 'hive' there are five HiveQL queries that perform the following tasks:
-
-1. create_db.hql - create application's database in Hive.
-2. create_table_hql - create a sample table in Hive.
-3. drop_table.hql - drop application's database from Hive.
-4. load_data.hql - load sample data to hive.
-5. query_data.hql - query sample data with Hive.
-
+Can you see that some data are badly formatted? It that affects our results?
 
 You have now completed iteration 1 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-2---ingesting-postgres-data-hdfs-and-analyse-them-with-pig) and continue your analysis by starting iteration 2.
 
