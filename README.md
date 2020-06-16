@@ -104,7 +104,7 @@ In case you successfully completed the data acquisition task from the Postgres d
 To do so run the following command:
 
 ```
-hdfs dfs -put students_commute_time.txt \user\maria_dev\
+hdfs dfs -put students_commute_time.txt \user\maria_dev\students_commute_time.txt
 ```
 To check that the file is uploaded into the HDFS run:
 ```
@@ -115,6 +115,9 @@ Also you can see the content of the file by using the cat command, sample comman
 hdfs dfs -cat /user/maria_dev/students_commute_time.txt
 ```
 Move back to the parent folder.
+```
+cd ..
+```
 
 ##### Phase B: Import data to Hive and make some analysis
 

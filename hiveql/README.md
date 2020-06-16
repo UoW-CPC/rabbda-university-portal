@@ -6,6 +6,12 @@ To be able to analyse data with Hive, it is required to perform several taks:
 3. Load data to these tables
 4. Query those tables and perfom Map-Reduce jobs
 
+Move to the hiveql folder and see its contents:
+```
+cd hiveql
+ls
+```
+
 In this folder there are five four queries that perform the above tasks. You can run them through terminal with the following commands:
 ```
 hive -f create_db.hql
