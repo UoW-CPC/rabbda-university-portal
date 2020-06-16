@@ -3,7 +3,7 @@ CREATE TABLE students(
    NAME           TEXT,
    CAMPUS         TEXT,
    STUDY_FIELD    TEXT,
-   REGISTRATION_YEAR   TEXT,
+   REGISTRATION_YEAR   INT,
    AGE            INT,
    SEX            TEXT,
    NATIONALITY    TEXT,
