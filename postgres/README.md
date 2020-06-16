@@ -101,7 +101,7 @@ COPY grades_high_school TO '/tmp/grades_high_school.csv' DELIMITER ',';
 COPY grades_university TO '/tmp/grades_university.csv' DELIMITER ',';
 
 ```
-The above export the tables to the /tmp path and for each table we have unique response:
+The above queries export the tables to the /tmp path and for each table we have unique response:
 
 __students table:__
 
