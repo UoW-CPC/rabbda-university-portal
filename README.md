@@ -57,6 +57,9 @@ Each iteration focuses on a specific task and delivers a complete solution for t
 
 #### Download the project
 
+Log into the HDP web terminal (sample link: http://localhost:4200/) as maria_dev with password maria_dev.
+You now see a prompt like [maria_dev@sandbox-hdp ~]$.
+
 The initial step is to download the repository in your Hadoop machine. To do so, in terminal run the following command:
  ```
  git clone https://github.com/UoW-CPC/rabbda-university-portal.git
