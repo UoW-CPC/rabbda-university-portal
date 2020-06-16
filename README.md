@@ -79,6 +79,9 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 
 ##### Phase A - Export data from postgres and upload them to HDFS.
 
+Please follow the instruction in the postgress forlder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/postgres)
+and on completion return here to continue with the analysis.
+
 ##### Phase B - Analyse the data with Pig
 
 #### Iteration 3 - Ingesting relational data by using Apache Sqoop
