@@ -126,7 +126,7 @@ Having imported the data to HDFS, it is now time to analyse those data with Hive
 
 #### Iteration 2 - Ingesting postgres data to HDFS and analyse them with Pig
 
-In this example we populate sample data, upload the to HDFS and analyse them with Pig.
+In this example we populate sample data into Postgres, upload them to HDFS and analyse them with Pig.
 
 ##### Phase A: Export data from postgres and upload them to HDFS.
 
