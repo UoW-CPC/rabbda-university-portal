@@ -21,6 +21,8 @@ CREATE TABLE grades_high_school(
    GRADE            INT
 );
 
+
+
 CREATE TABLE grades_university(
    ID SERIAL PRIMARY KEY,
    STUDENT_ID INT     NOT NULL,
