@@ -58,7 +58,7 @@ Each iteration focuses on a specific task and delivers a complete solution for t
 
 #### Iteration 1 - Ingesting SQLite data to Hive and perform analysis
 
-At this example we populate sample data into SQLite and import them to Hive for analysis.
+In this example we populate sample data into SQLite and import them to Hive for analysis.
 
 ##### Phase A: Export data from SQLite and upload them to HDFS
 
@@ -91,7 +91,7 @@ In the folder 'hive' there are five HiveQL queries that perform the following ta
 
 #### Iteration 2 - Ingesting postgres data HDFS and analyse them with Pig
 
-At this example we populate sample data, upload the to HDFS and analyse them with Pig.
+In this example we populate sample data, upload the to HDFS and analyse them with Pig.
 
 ##### Phase A: Export data from postgres and upload them to HDFS.
 
