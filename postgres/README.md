@@ -130,11 +130,7 @@ If you run the ls command you can see the files listed in your working directory
 cat students.csv
 ```
 
-__Info__: In case you find difficult to follow these steps, the CSV files have been included in this folder so you can continue your analysis.
-
-__Important:__ It is clear by now that the acquisition phase it can be quite complicated and it can be a first step to a successful project.
-
-At this point you can return to the documentation and continue your analysis by first uploading the data into HDFS.
+At this point you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#phase-a-export-data-from-postgres-and-upload-them-to-hdfs) and continue your analysis by first uploading the data into HDFS.
 
 
 
