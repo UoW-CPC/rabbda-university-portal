@@ -1,54 +1,59 @@
 # Pig Analysis
 
-
-Initialy verify that Pig is running, in the terminal run the following:
+Initially verify that Pig is running, in the terminal run the following:
 
 ```
 pig –version
 ```
-
+Then move to the pig folder and see its content:
 ```
-pig -x mapreduce students.pig
-pig -x mapreduce grades_high_school.pig
-pig -x mapreduce grades_university.pig
-```
-
-To be able to analyse data with Hive, it is required to perform several taks:
-1. Create a database
-2. Create tables
-3. Load data to these tables
-4. Query those tables and perfom Map-Reduce jobs
-
-Move to the hiveql folder and see its contents:
-```
-cd hiveql
+cd pig
 ls
 ```
 
-In this folder there are four queries that perform the previous tasks. You can run them through terminal with the following commands:
+In the pig folder you can see three pig scripts:
+1. grades_high_school.pig, this script works with the grades_high_school.csv.
+2. join.pig, this script works with all the data related to students.
+3. students.pig, this script works with the students.csv.
+
+To more detail, try to run the scripts one by one, starting with the students.pig:
 ```
-hive -f create_db.hql
-hive -f create_table.hql
-hive -f load_data.hql
-hive -f query_data.hql
+pig -x mapreduce students.pig
+```
+The above command instruct Pig to work with the MapReduce engine and executes the students.pig script.
+
+The script does several things:
+1. Loads students data from the HDFS
+2. Groups the data by study field
+3. Groups and counts the data by study field
+4. Groups the data by study field and student nationality
+5. Groups and counts the data by study field and student nationality
+
+In all steps we dump the data to the console so to review the results.
+
+Next, please try  another type of analysis by using the grades_high_school.pig script.
+
+The script does the following:
+1. Loads high school grades data from the HDFS
+2. Groups the data by module
+3. Calculates the average grade for each module
+4. Calculates the avarage grage for all the modules
+
+Finally, try join the data from different data sources:
+```
+pig -x mapreduce join.pig
 ```
 
-If you have successfully run the above queries, you are able to see results like:
-* all the data stored the commute_time table
-* number of students per study year
-* number of students per field and study year
-* average commute time per campus
+The script does the following:
+1.
+2.
+3.
+4.
 
-Can you see that some data are badly formatted? It that affects our results?
-
-__Notice:__ In case you want to reproduce the above step you can drop the database by using the script drop_database.
-```
-hive -f drop_db.hql
-```
 Move back to the parent folder:
 ```
 cd ..
 ```
-You have now completed iteration 1 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-2---ingesting-postgres-data-hdfs-and-analyse-them-with-pig) and continue your analysis by starting iteration 2.
+You have now completed iteration 2 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-3---sentiment-analysis-of-students-feedback) and continue exploring potential analysis by starting iteration 3.
 
 
