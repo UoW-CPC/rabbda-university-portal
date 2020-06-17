@@ -32,6 +32,9 @@ The script does several things:
 In all steps we dump the data to the console so to review the results.
 
 Next, please try  another type of analysis by using the grades_high_school.pig script.
+```
+pig -x mapreduce grades_high_school.pig
+```
 
 The script does the following:
 1. Loads high school grades data from the HDFS
