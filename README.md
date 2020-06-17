@@ -122,7 +122,7 @@ cd ..
 
 ##### Phase B: Import data to Hive and make some analysis
 
-Having imported the data to HDFS, it is now time to analyse those data with Hive. To do so, follow the instruction in the hiveql folder [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/hiveql#hive-analysis).
+Having imported the data to HDFS, it is now time to analyse those data with Hive. To do so, follow the instructions [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/hiveql#hive-analysis).
 
 
 #### Iteration 2 - Ingesting postgres data to HDFS and analyse them with Pig
@@ -153,7 +153,7 @@ hdfs dfs -cat /user/maria_dev/students.csv
 
 ##### Phase B: Analyse the data with Pig
 
-At this phase we will be using Pig to do some analysis with the data we have uploaded into the Hadoop environment. To do so please follow the instruction [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/pig#pig-analysis).
+At this phase we will be using Pig to do some analysis with the data we have uploaded into the Hadoop environment. To do so please follow the instructions [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/pig#pig-analysis).
 
 #### Iteration 3 - Sentiment analysis of students feedback
 
