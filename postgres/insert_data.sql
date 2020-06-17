@@ -1,23 +1,23 @@
 INSERT INTO students (STUDENT_ID, NAME, CAMPUS, STUDY_FIELD, REGISTRATION_YEAR, AGE , SEX, NATIONALITY, HOME_ADDRESS, HIGH_SCHOOL, HIGH_SCHOOL_ADDRESS)
 VALUES
-    ( 1855,'Natalia','Campus Region B','CS',2019,19,'F','Italian','Region A','High School 2','Rome, Italy'),
+    ( 1855,'Natalia','Campus Region B','CS',2019,19,'F','Italian','Region A','High School 1','Rome, Italy'),
     ( 1856,'Gab','Campus Region C','History',2017,21,'M','Greek','Region A','High School 2','Athens, Greece'),
-    ( 1857,'Sophia','Campus Region A','Arts',2019,22,'F','German','Region B','High School 2','Munich, Germany'),
+    ( 1857,'Sophia','Campus Region A','Arts',2019,22,'F','German','Region B','High School 1','Munich, Germany'),
     ( 1858,'John','Campus Region A','Arts',2018,20,'M','Polish','Region B','High School 2','Warsaw, Poland'),
-    ( 1859,'Temur','Campus Region A','Arts',2016,21,'M','UK','Region B','High School 2','London, England'),
-    ( 1860,'Ian','Campus Region B','CS',2019,22,'M', 'Korean','Region B', 'High School 2','Seoul, South Korea'),
-    ( 1861,'Huan','Campus Region A','Arts',2018,29,'M','Chinese','Region A', 'High School 2','Beijing, China'),
+    ( 1859,'Temur','Campus Region A','Arts',2016,21,'M','UK','Region B','High School 3','London, England'),
+    ( 1860,'Ian','Campus Region B','CS',2019,22,'M', 'Korean','Region B', 'High School 4','Seoul, South Korea'),
+    ( 1861,'Huan','Campus Region A','Arts',2018,29,'M','Chinese','Region A', 'High School 1','Beijing, China'),
     ( 1862,'Maria','Campus Region A','Arts',2019,24,'F','German','Region A','High School 2','Berlin, Germany'),
-    ( 1863,'Carmelo','Campus Region C','History',2019,18,'M','Italian','Region A','High School 2','Milan, Italy'),
-    ( 1864,'Tatiana','Campus Region A','Arts',2015,23,'F','Russian','Region C', 'High School 2','Moscow, Russia'),
+    ( 1863,'Carmelo','Campus Region C','History',2019,18,'M','Italian','Region A','High School 3','Milan, Italy'),
+    ( 1864,'Tatiana','Campus Region A','Arts',2015,23,'F','Russian','Region C', 'High School 4','Moscow, Russia'),
     ( 1865,'Igor','Campus Region B','CS',2018,21,'M','Russian','Region A','High School 2','Moscow, Russia'),
     ( 1866,'Steven','Campus Region B','CS',2019,31,'M','Italian','Region C', 'High School 2','Milan,Italy'),
     ( 1867,'Kate','Campus Region B','CS',2018,23,'F','Greek','Region C','High School 2','Crete, Greece'),
     ( 1868,'Anna','Campus Region A','Arts',2018,19,'F','Turkish','Region A', 'High School 2','Izmir, Turkey'),
-    ( 1869,'Ahmet','Campus Region A','Arts',2018,20,'M','Turkish','Region C', 'High School 2','Ankara,Turkey'),
-    ( 1870,'Geun','Campus Region C','History',2017,26,'M','Korean','Region C','High School 2','Seoul, South Korea'),
+    ( 1869,'Ahmet','Campus Region A','Arts',2018,20,'M','Turkish','Region C', 'High School 4','Ankara,Turkey'),
+    ( 1870,'Geun','Campus Region C','History',2017,26,'M','Korean','Region C','High School 1','Seoul, South Korea'),
     ( 1871,'Chao','Campus Region C','History',2019,26,'M','Chinese','Region C', 'High School 2','Beijing, China'),
-    ( 1872,'Emma','Campus Region A','Arts',2018,21,'F','German','Region A', 'High School 2','Mainz,Germany');
+    ( 1872,'Emma','Campus Region A','Arts',2018,21,'F','German','Region A', 'High School 4','Mainz,Germany');
 
 
 

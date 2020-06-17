@@ -9,6 +9,8 @@ pig –version
 
 ```
 pig -x mapreduce students.pig
+pig -x mapreduce grades_high_school.pig
+pig -x mapreduce grades_university.pig
 ```
 
 To be able to analyse data with Hive, it is required to perform several taks:
