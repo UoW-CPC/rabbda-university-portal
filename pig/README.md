@@ -16,7 +16,7 @@ In the pig folder you can see three pig scripts:
 2. join.pig, this script works with all the data related to students.
 3. students.pig, this script works with the students.csv.
 
-To more detail, try to run the scripts one by one, starting with the students.pig:
+Try running the scripts one by one, starting with the students.pig:
 ```
 pig -x mapreduce students.pig
 ```
