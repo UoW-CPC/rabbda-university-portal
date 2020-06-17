@@ -45,10 +45,10 @@ pig -x mapreduce join.pig
 ```
 
 The script does the following:
-1.
-2.
-3.
-4.
+1. Load students, high school and university grades from HDFS
+2. Groups high school and university grades by student id
+3. Joins the students with their grades - both high school and university
+4. Filter the joined data, by displaying students of a single study field
 
 Move back to the parent folder:
 ```
