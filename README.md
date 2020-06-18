@@ -33,7 +33,7 @@ Phase A:
  * Hive: analyse the data with the SQL-like Hive query language.
  * Pig: analyse the data with the scripting language Pig Latin.
 
-Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig, Apache Sqoop, Apache Oozie.
+Introduced technologies: RDBMS, Apache Hadoop HDFS, Apache Hive, Apache Pig, Apache Spark, Apache Sqoop, Apache Oozie.
 
 __Important:__ From a project's management point of view we assume that we are in the project analysis phases.
 At this phase the architecture helps us to understand what needs to be done and communicate our aims and objectives.
@@ -49,11 +49,11 @@ This example is created for HDP default user maria_dev. In case you want to repr
 As it is described in the introduction in order to understand and build our solution we need to introduce several iterations.
 
 Each iteration focuses on a specific task and delivers a complete solution for this task. This demonstrations requires 5 iterations:
-1. Iteration 1 - Ingesting SQLite data to Hive and perform analysis  - Mentioned in the architecture.
-2. Iteration 2 - Ingesting Postgres data to HDFS and analyse them with Pig - Mentioned in the architecture.
-3. Iteration 3 - Sentiment analysis of students feedback - Experimental.
-4. Iteration 4 - Ingesting relational data by using Sqoop - Experimental.
-5. Iteration 5 - Creating Oozie workflows to automate the above phases - Experimental.
+1. Iteration 1 - Ingesting SQLite data to Hive and perform analysis  - Part of the architecture.
+2. Iteration 2 - Ingesting Postgres data to HDFS and analyse them with Pig - Part of the architecture.
+3. Iteration 3 - Sentiment analysis of students feedback with Spark - Potentional Further developments.
+4. Iteration 4 - Ingesting relational data with Sqoop - Further developments.
+5. Iteration 5 - Creating Oozie workflows to automate your tasks - Further developments.
 
 #### Download the project
 
@@ -155,9 +155,11 @@ hdfs dfs -cat /user/maria_dev/students.csv
 
 At this phase we will be using Pig to do some analysis with the data we have uploaded into the Hadoop environment. To do so please follow the instructions [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/pig#pig-analysis).
 
-#### Iteration 3 - Sentiment analysis of students feedback
+This demo has been completed. You can now extend the architecture my utilising Big Data Technologies like the ones we mention in the followed proposed iterations.
 
-#### Iteration 4 - Ingesting relational data by using Apache Sqoop
+#### Iteration 3 - Sentiment analysis of students feedback with Spark
 
-#### Iteration 5 - Creating a workflow with Apache  Oozie to automate the above tasks
+#### Iteration 4 - Ingesting relational data with Sqoop
+
+#### Iteration 5 - Creating Oozie workflows to automate your tasks
 

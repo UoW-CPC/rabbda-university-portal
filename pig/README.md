@@ -57,6 +57,6 @@ Move back to the parent folder:
 ```
 cd ..
 ```
-You have now completed iteration 2 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-3---sentiment-analysis-of-students-feedback) and continue exploring potential analysis by starting iteration 3.
+You have now completed iteration 2 and you can return to the documentation [here](https://github.com/UoW-CPC/rabbda-university-portal#iteration-3---sentiment-analysis-of-students-feedback) and continue exploring potential analysis by reviewing iteration 3.
 
 
