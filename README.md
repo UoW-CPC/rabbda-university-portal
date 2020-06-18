@@ -155,7 +155,7 @@ hdfs dfs -cat /user/maria_dev/students.csv
 
 At this phase we will be using Pig to do some analysis with the data we have uploaded into the Hadoop environment. To do so please follow the instructions [here](https://github.com/UoW-CPC/rabbda-university-portal/tree/master/pig#pig-analysis).
 
-This demo has been completed. You can now extend the architecture my utilising Big Data Technologies like the ones we mention in the followed proposed iterations.
+This demo has been completed. You can now extend the architecture my utilising Big Data Technologies like the ones we mention in the following proposed iterations.
 
 #### Iteration 3 - Sentiment analysis of students feedback with Spark
 
