@@ -186,7 +186,7 @@ Oozie is integrated with the rest of the Hadoop stack supporting several types o
 
 Related to this application, you can use Oozie to create workflows. Those workflows are DAGs that automate your tasks, e.g. a workflow that imports data to HDFS with Sqoop and then executes Hive queries to import and analyze those data with Hive.
 
-[Here](https://oozie.apache.org/docs/5.2.0/#Quick_Start) you can find a quick start guide and see what type of action you can perform with Sqoop.
+[Here](https://oozie.apache.org/docs/5.2.0/#Quick_Start) you can find a Quick Start Guide and see what type of action you can perform with Oozie.
 
 For more examples regarding Oozie please review the following [SAP guide]( https://help.sap.com/viewer/50f26aa0f2044127bc5f6d5ad3d090fe/Cloud/en-US/2e65074676b8101480abd76da746ffe7.html).
 
