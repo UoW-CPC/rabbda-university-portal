@@ -159,11 +159,11 @@ This demo has been completed. You can now extend the architecture my utilising B
 
 #### Iteration 3 - Sentiment analysis of students feedback with Spark
 
-Hortonwork Data Platform is an open-source Big Data Solution from [Cloudera](https://www.cloudera.com/) .
+Hortonwork Data Platform is an open-source Big Data Solution from [Cloudera](https://www.cloudera.com/).
 Cloudera provides an extensive tutorial on how to acquire twitter data and build a Real-Time Sentiment Analysis application;
 you can access the tutorial [here](https://www.cloudera.com/tutorials/building-a-sentiment-analysis-application/.html).
 
-Following the instruction on the above link, you can create your own classification model so to perform sentiment analysis on several semi-structured data,
+Following the instruction of this tutorial, you can create your own classification model so to perform sentiment analysis on several semi-structured data,
 e.g. assessing students feedback of it is positive or negative.
 
 #### Iteration 4 - Ingesting relational data with Sqoop
