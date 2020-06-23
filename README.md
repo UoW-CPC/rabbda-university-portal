@@ -164,7 +164,7 @@ Cloudera provides an extensive tutorial on how to acquire twitter data and build
 you can access the tutorial [here](https://www.cloudera.com/tutorials/building-a-sentiment-analysis-application/.html).
 
 Following the instruction of this tutorial, you can create your own classification model so to perform sentiment analysis on several semi-structured data,
-e.g. assessing students feedback of it is positive or negative.
+e.g. assessing students feedback if it is positive or negative.
 
 #### Iteration 4 - Ingesting relational data with Sqoop
 
