@@ -172,7 +172,7 @@ Apache [Sqoop](https://sqoop.apache.org/) is a tool designed for efficiently tra
 
 Sqoop offers a comprehensive [User Guide](https://sqoop.apache.org/docs/1.99.7/user.html) in which you can find instructions on how to use the [Generic JDBC Connector](https://sqoop.apache.org/docs/1.99.7/user/connectors/Connector-GenericJDBC.html) so to transfer data between Apache Hadoop and a Database Server.
 
-For our scenario this Database Server is Postgres.  In order to import data from Postgres to Apache Hadoop, please review the instruction in the following Cloudera [article](https://community.cloudera.com/t5/Community-Articles/sqoop-import-export-tutorial/ta-p/245364).
+In our case this Database Server is Postgres.  In order to import data from Postgres to Apache Hadoop, please review the instruction in the following Cloudera [article](https://community.cloudera.com/t5/Community-Articles/sqoop-import-export-tutorial/ta-p/245364).
 
 #### Iteration 5 - Creating Oozie workflows to automate your tasks
 
