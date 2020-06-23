@@ -188,5 +188,5 @@ Related to this application, you can use Oozie to create workflows. Those workfl
 
 [Here](https://oozie.apache.org/docs/5.2.0/#Quick_Start) you can find a Quick Start Guide and see what type of action you can perform with Oozie.
 
-For more examples regarding Oozie please review the following [SAP guide]( https://help.sap.com/viewer/50f26aa0f2044127bc5f6d5ad3d090fe/Cloud/en-US/2e65074676b8101480abd76da746ffe7.html).
+For more examples regarding Oozie please review the following SAP [guide]( https://help.sap.com/viewer/50f26aa0f2044127bc5f6d5ad3d090fe/Cloud/en-US/2e65074676b8101480abd76da746ffe7.html).
 
