@@ -184,7 +184,7 @@ Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (freq
 
 Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
 
-You can use Oozie to create workflows. Those workflows are DAGs that automate your application, e.g. a workflow that imports data to HDFS with Sqoop and then executes Hive queries to import and analyze those data with Hive.
+Related to this application, you can use Oozie to create workflows. Those workflows are DAGs that automate your tasks, e.g. a workflow that imports data to HDFS with Sqoop and then executes Hive queries to import and analyze those data with Hive.
 
 [Here](https://oozie.apache.org/docs/5.2.0/#Quick_Start) you can find a quick start guide and see what type of action you can perform with Sqoop.
 
