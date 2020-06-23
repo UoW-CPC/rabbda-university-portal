@@ -12,7 +12,7 @@ RABBDA (Reduce Access Barriers to Big Data Analytics) is created by the [Centre 
 The project objective is to provide students and practitioners access to Big Data technologies and learning material. The university portal is designed to serve RABBDA project as an illustration on how to utilise Big Data technologies so to build complex architectures.
 
 RABBDA is the first attempt to merge a Science Gateway with a KREL (knowledge repository and learning), called [SMARTEST](https://smartest-repo.herokuapp.com/) to facilitate the comprehension of the various aspects of the portal.
-For more information, please review RABBDA here.
+For more information, please review RABBDA [here](https://rabbda.readthedocs.io/).
 
 
 ### Architecture
