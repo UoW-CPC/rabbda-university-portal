@@ -159,7 +159,34 @@ This demo has been completed. You can now extend the architecture my utilising B
 
 #### Iteration 3 - Sentiment analysis of students feedback with Spark
 
+Hortonwork Data Platform is a [Cloudera](https://www.cloudera.com/) open-source project.
+Cloudera provides an extensive tutorial on how to acquire twitter data and build a Real-Time Sentiment Analysis application;
+you can access the tutorial [here](https://www.cloudera.com/tutorials/building-a-sentiment-analysis-application/.html).
+
+Following the instruction on the above link, you can create your own classification model so to perform sentiment analysis on several semi-structured data,
+e.g. assessing students feedback of it is positive or negative.
+
 #### Iteration 4 - Ingesting relational data with Sqoop
 
+Apache [Sqoop](https://sqoop.apache.org/) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
+
+Sqoop offers a comprehensive [user guide](https://sqoop.apache.org/docs/1.99.7/user.html) in which you can find instructions on how to use the [Generic JDBC Connector](https://sqoop.apache.org/docs/1.99.7/user/connectors/Connector-GenericJDBC.html) so to transfer data between Apache Hadoop and a Database Server.
+
+For our scenario this Database Server is Postgres.  In order to import data from Postgres to Apache Hadoop, please review the instruction in the following Cloudera [article](https://community.cloudera.com/t5/Community-Articles/sqoop-import-export-tutorial/ta-p/245364).
+
 #### Iteration 5 - Creating Oozie workflows to automate your tasks
+
+Apache [Oozie](https://oozie.apache.org/) is a workflow scheduler system to manage Apache Hadoop jobs.
+
+Oozie Workflow jobs are Directed Acyclical Graphs (DAGs) of actions.
+
+Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (frequency) and data availability.
+
+Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
+
+You can use Oozie to create workflows. Those workflows are DAGs that automate your application, e.g. a workflow that imports data to HDFS with Sqoop and then executes Hive queries to import and analyze those data with Hive.
+
+[Here](https://oozie.apache.org/docs/5.2.0/#Quick_Start) you can find a quick start guide and see what type of action you can perform with Sqoop.
+
+For more examples regarding Oozie please review the following [SAP guide]( https://help.sap.com/viewer/50f26aa0f2044127bc5f6d5ad3d090fe/Cloud/en-US/2e65074676b8101480abd76da746ffe7.html).
 
