@@ -105,7 +105,7 @@ In case you successfully completed the data acquisition task from the Postgres d
 To do so run the following command:
 
 ```
-hdfs dfs -put students_commute_time.txt \user\maria_dev\students_commute_time.txt
+hdfs dfs -put students_commute_time.txt /user/maria_dev/students_commute_time.txt
 ```
 To check that the file is uploaded into the HDFS run:
 ```
@@ -138,9 +138,9 @@ In case you successfully completed the data acquisition task from the Postgres d
 To do so run the following commands:
 
 ```
-hdfs dfs -put students.csv \user\maria_dev\students.csv
-hdfs dfs -put grades_high_school.csv \user\maria_dev\grades_high_school.csv
-hdfs dfs -put grades_university.csv \user\maria_dev\grades_university.csv
+hdfs dfs -put students.csv /user/maria_dev/students.csv
+hdfs dfs -put grades_high_school.csv /user/maria_dev/grades_high_school.csv
+hdfs dfs -put grades_university.csv /user/maria_dev/grades_university.csv
 ```
 To check that the files are uploaded into the HDFS run:
 ```
